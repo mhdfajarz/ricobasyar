@@ -1,0 +1,100 @@
+@font-face {
+    font-family: open sans;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Open Sans Bold"), local("OpenSans-Bold"), url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format("woff2"), 
+    url(https://fonts.gstatic.com/s/opensans/v13/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format("woff")
+}
+
+a,
+a:focus,
+a:hover {
+    color: #fff;
+    outline: 0 !important;
+}
+
+html,
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    background-color: #333;
+    background-image: url(ternak.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, .7);
+}
+
+
+.cover-heading {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 0;
+    padding: 14px 40px;
+    border: 4px solid;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    font-family: open sans, sans-serif;
+    font-size: 44px;
+    background: rgba(0, 0, 0, .29)
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, .8);  
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media(min-width:768px) {
+
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+}
+
+@media(min-width:992px) {
+
+    .cover-container {
+        width: 750px;
+    }
+}
+
+@media(max-width:767px) {
+    .cover-heading {
+        font-size: 120%;
+    }
+
+
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+}

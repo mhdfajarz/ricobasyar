@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'montserrat';
+    background: #ACA533;
+}
+
+/*nav{
+    z-index: 3;
+    position: fixed;
+    background: transparent;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 100px rgba(0, 0, 0, .8);
+    transition: .5s all;
+    
+}
+
+nav.active{
+    position: fixed;
+    background: rgb(181, 171, 22);
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 0 100px rgba(0, 0, 0, .8);
+    transition: .5s all;
+}
+
+.inputt{
+    position: absolute;
+    left: 20%;
+    top: 35%;
+    font-family: 'montserrat';
+    width: 500px;
+    font-size: 17px;
+    outline: 0;
+    background: none;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    align-items: center;
+    margin: 0 auto;
+    transition: .5s all;
+}
+
+.inputt.active{
+    left: 22%;
+    top: 33%;
+    transition: .5s all;
+}
+
+.inputt:focus,.inputt:active,.inputt:hover{
+    color: #fff;
+}
+
+
+.inputt::placeholder{
+    color: #fff;
+    opacity: .8;
+}
+
+.logo{
+    margin-left: 115px;
+    width: 175px;
+    transition: .5s all;
+    margin-top: 0px;
+
+}
+
+.logo.active{
+    color: #fff;
+    font-size: 25px;
+    margin-top: -5px;
+    width: 185px;
+    font-weight: bold;
+    transition: .5s all;
+
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+.loginbutton{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+.loginbutton:hover{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #fff;
+    color: #000;
+}*/
+
+
+.gambar-konten{
+    background: url(barn.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.overlay{
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 380px 280px 500px rgba(0, 0, 0, .7);  
+}
+
+.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 85px;
+    color: #fff;
+    margin: auto 120px;
+    line-height: 75px;
+    overflow: hidden;
+}
+
+.para{
+    color: #fff;
+    font-family: 'montserrat';
+    margin: auto 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.cover{
+    color: #fff;
+  
+    margin: auto 120px;
+    padding: 14px 40px;
+    border: 2px solid;
+    border-radius: 80px;
+    width: 280px;
+    background: rgba(0, 0, 0, .29);
+    text-align: center;
+}
+
+.cover a{
+    font-size: 18px;
+}
+
+.cover:hover{
+    color: #000;
+    background: #ACA533;
+    border: 2px solid#ACA533;
+    cursor: pointer;
+}
+
+.pos{
+    padding-top: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/*.modal{
+    display: none;
+    position: fixed;
+    z-index: 3;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, .7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content{
+    font-family: 'Montserrat';
+    background-color: rgba(171, 165, 51, .8);
+    padding: 20px;
+    height: 240px;
+    width: 380px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .15);
+    border-radius: 5px;
+    color: #fff;
+}
+
+.modal-content h2{
+    text-align: center;
+}
+
+.modal-content input{
+    display: inline-block;
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 28px;
+    padding: 5px;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 5px;
+    border: #fff;
+    color: #000;
+    margin: 10px auto;
+    outline: 0;
+}
+
+.modal-content button{
+    font-family: 'Montserrat';
+    width: 100px;
+    height: 30px;
+    margin: 10px auto;
+    border-radius: 6px;
+    border: none;
+    outline: 0;
+    float: right;
+}
+
+.modal-content button:hover{
+    border: none;
+    color: #fff;
+    background: #ACA533;
+    cursor: pointer;
+
+}
+
+.modal-content p{
+    font-size: 13.5px;
+    color: #fff;
+}
+
+.modal-content a{
+    font-size: 13.5px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.closeBtn{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.closeBtn:hover,:focus{
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+}*/
+
+.row::after{
+    content: "";
+    display: table;
+}
+
+.row{
+    background: rgb(181, 171, 22);
+    width: 100%;
+    height: 500px;
+}
+
+.kolom1{
+    width: 30%;
+    text-align: left;
+    color: #fff;
+    float: left;
+    padding-left: 47px;
+    margin: 80px 80px;
+    height: 300px;
+}
+
+.kolom1 h3{
+    font-weight: bold;
+    line-height: 18px;
+    font-size: 18px;
+}
+
+.kolom1 h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+
+.kolom2{
+    width: 30%;
+    text-align: center;
+    padding: 80px;
+    color: #fff;
+    float: left;
+    height: 500px;
+}
+
+.card{
+    background: #c9c43b;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+.card a{
+    color: #fff;
+}
+
+.kolom2 img{
+    width: 180px;
+}
+
+.kolom2 button{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 10px;
+    margin: 45px auto;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    width: 200px;
+    background: #8b872a;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+.kolom2 button:hover{
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #96922d;
+}
+
+.kolom3{
+    width: 280px;
+    text-align: center;
+    padding-top: 80px;
+    color: #fff;
+    float: left;
+    height: 500px;
+}
+
+.kolom3 img{
+    width: 180px;
+    height: 160px;
+}
+
+.kolom3 button{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 10px;
+    margin: 45px auto;
+    border: none;
+    outline: none;
+    border-radius: 9px;
+    width: 200px;
+    background: #8b872a;
+    color: #fff;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+.kolom3 button:hover{
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: #96922d;
+}
+
+
