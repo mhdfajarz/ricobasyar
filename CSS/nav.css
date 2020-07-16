@@ -183,8 +183,8 @@ nav ul li{
     right: 50px;
     bottom: -100px;
     z-index: 2;
-    width: 50px;
-    height: 50px;
+    width: 43px;
+    height: 43px;
     transition: .5s all;
     cursor: pointer;
 }
@@ -195,7 +195,7 @@ nav ul li{
 
 .tombolatas.active{
     position: fixed;
-    bottom: 25px;
+    bottom: 50px;
     transition: .5s all;
 }
 
