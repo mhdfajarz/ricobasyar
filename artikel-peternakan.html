@@ -3,7 +3,7 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/make-artikel.css">
+    <link rel="stylesheet" href="CSS/artikel-pertanian.css">
     <link rel="stylesheet" href="CSS/nav.css">
     <link rel="stylesheet" href="CSS/footer.css">
 </head>
@@ -25,27 +25,13 @@
 
     <img class="tombolatas" src="Image/tombolatas2.png" onclick="scrollup()">
 
-    <div class="kotakan">
-        <div class="konten">
-            <div class="isi">
-                <h1>Start an article</h1>
-                <p>Mulailah sebuah artikel yang bermanfaat sehingga orang lain yang membutuhkan informasi tertentu dapat
-                    membacanya </p><br>
-                    <select id="filter" class="filter">
-                      <option value="Peternakan" disabled selected>Filter Konten</option>
-                      <option value="Pertanian">Peternakan</option>
-                      <option value="Pertanian">Pertanian</option>
-                    </select><br>
-                <input placeholder="Judul Artikel">
-                <form action="/action_page.php"><br>
-                    <label for="img">Select image:</label>
-                    <input type="file" id="inputfile" name="inputfile">
-                </form>
-                <div id="image-preview" class="image-preview">
-                    <img src="" alt="Image Preview" class="image-preview__image">
-                </div><br>
-                <textarea placeholder="Isi Artikel"></textarea><br><br>
-                <button class="submit">Upload</button>
+    <div class="gambar-konten">
+        <div class="overlay">
+            <div class="pos">
+                <h1 class="heading">Ayo tulis artikel untuk menyampaikan informasi yang berguna</h1>
+                <a href="make-artikel.html"><button class="startart">Buat Artikel</button></a>
+                <h3>Atau bisa juga cari artikel dibawah ini</h3>
+                <img src="Image/arrowdown.png" onclick="scrollwin()" class="arrowdown">
             </div>
         </div>
     </div>
@@ -60,6 +46,52 @@
             <button>LOGIN</button>
         </div>
     </div>
+
+    <div class="artikel-list">
+        <div class="artikel">
+            <input placeholder="Search" class="search">
+            <h2>Artikel Peternakan Terkini untuk Anda</h2><br>
+            <hr><br>
+            <div class="pertama">
+                <a href="artikel.html"><img class="first" src="Image/pepaya.jpeg">
+                <h3>Pepaya Jepang Superfood Penambah Imunitas</h3></a>
+                <p class="cuttext titik3"><b>"Pepaya jepang... Emang ada?"</b>
+                    cetus seorang teman kepadaku, ketika melihat sebuah postinganku saat memasak!
+
+                    Sebenarnya akupun tidak begitu tau tentang tumbuhan ini, singkatnya bibiku yang baru pulang dari
+                    kampung membawa beberapa batang yang awalnya kukira potongan batang ubi kayu. Namun ternyata
+                    berbeda, bentuk daunnya mirip dengan pepaya hanya saja ukurannya relatif lebih kecil.</p>
+            </div>
+            <div class="kontenhorizontal">
+                <a href="artikel.html"><img src="Image/mangga.jpg">
+                <h3>Cara Mudah Menanam Mangga Chokanan di Pekarangan dan Pot</h3></a>
+                <p class="cuttext2 titik3">Mangga chokanan berasal dari Thailand dan bisa tumbuh baik di Indonesia. Rasa
+                    buah mangga
+                    chokanan manis seperti madu, tak heran banyak masyarakat Indonesia yang menyukai mangga ini.
+                    Selain itu, bentuk sosok tanamannya lebih rapat dan teratur sehingga cocok ditanam di
+                    pekarangan, baik di tanah maupun di dalam pot. Menanam mangga chokanan terbilang cukup mudah,
+                    sama seperti mangga pada umumnya.</p>
+            </div>
+            <div class="kontenhorizontal">
+                <a href="artikel.html"><img src="Image/manggis.jpg">
+                <h3>Cara Mudah Menanam Bibit Manggis di Dalam Pot</h3></a> 
+                <p class="cuttext2 titik3">Buah manggis memiliki banyak manfaat yang sangat baik untuk kesehatan. Selain
+                    itu, rasa buah manggis sangat menyegarkan, perpaduan antara asam dan manis dapat membuat orang-orang
+                    ketagihan untuk memakannya lagi dan lagi.</p>
+            </div>
+            <div class="kontenhorizontal">
+                <a href="artikel.html"><img src="Image/hidro.jpg">
+                <h3>Hidroponik Portabel Membuat Kegiatan Menanam Jadi Lebih Mudah</h3></a> 
+                <p class="cuttext2 titik3">Kegiatan menanam pada dasarnya merupakan kegiatan positif yang mudah untuk
+                    dilakukan jika Anda sudah mengetahui caranya. Caranya pun cukup mudah untuk dipelajari asalkan ada
+                    kemauan.</p>
+            </div>
+        </div>
+        <div class="iklan">
+
+        </div>
+    </div>
+
 
     <div class="start"><br>
         <h2>Bergabung Dengan Kami dan Dapatkan Akses Penuh Gratis</h2><br>

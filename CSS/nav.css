@@ -84,7 +84,7 @@ nav ul li{
 }
 
 .loginbutton:hover::before{
-    transform: scale(0.7,1);
+    transform: scale(0.75);
 }
 
 .loginbutton:hover{
