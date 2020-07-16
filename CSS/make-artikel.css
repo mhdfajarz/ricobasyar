@@ -34,32 +34,30 @@ body {
     padding: 100px;
 }
 
-.isi{
+.isi {
     border: 2px solid #000000;
-    border-radius: 8px;
+    border-radius: 4px;
     text-align: left;
     padding: 20px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
-    
 }
 
-.isi h1{
-   font-size: 40px;
+.isi h1 {
+    font-size: 40px;
 }
 
-.isi p{
+.isi p {
     line-height: 25px;
     font-size: 18px;
 }
 
-.isi input{
+.isi input {
     width: 250px;
     height: 30px;
     outline: none;
     padding-left: 10px;
 }
 
-.isi textarea{
+.isi textarea {
     width: 95%;
     height: 250px;
     resize: none;
@@ -67,15 +65,29 @@ body {
     padding: 10px;
 }
 
-.isi input[type="submit"]{
+.isi button{
     background: rgb(181, 171, 22);
     color: #ffffff;
     outline: none;
     border: none;
+    width: 200px;
+    height: 30px;
 }
 
-.isi input[type="submit"]:hover{
+.isi button:hover{
     background: rgb(128, 120, 16);
     color: #ffffff;
     cursor: pointer;
+}
+
+.filter{
+    width: 200px;
+    padding: 3px;
+    margin-bottom: 8px;
+}
+
+.image-preview__image{
+    display: none;
+    width: 750px;
+    min-height: 100px;
 }

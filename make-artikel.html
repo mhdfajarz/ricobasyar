@@ -11,13 +11,13 @@
 <body>
     <nav class="warna">
         <a href="homepage.html">
-        <img src="Image/IsoGrowLogoTransparent.png" class="logo">
+            <img src="Image/IsoGrowLogoTransparent.png" class="logo">
         </a>
         <ul>
-            <li><a  class="loginbutton" href="homepage.html" >Home</a></li>
-            <li><a  class="loginbutton" href="about-us.html">About Us</a></li>
-            <li><a  class="loginbutton" href="make-artikel.html">Encyclopedia</a></li>
-            <li><a  class="loginbutton" href="#">Forum</a></li>
+            <li><a class="loginbutton" href="homepage.html">Home</a></li>
+            <li><a class="loginbutton" href="about-us.html">About Us</a></li>
+            <li><a class="loginbutton" href="make-artikel.html">Encyclopedia</a></li>
+            <li><a class="loginbutton" href="#">Forum</a></li>
             <li><a id="btnOpen" class="loginbutton" href="#">Login</a></li>
         </ul>
     </nav>
@@ -27,17 +27,26 @@
     <div class="kotakan">
         <div class="konten">
             <div class="isi">
-        <h1>Start an article</h1>
-        <p>Mulailah sebuah artikel yang bermanfaat sehingga orang lain yang membutuhkan informasi tertentu dapat membacanya </p><br>
-        <input placeholder="Judul Artikel">
-        <form action="/action_page.php"><br>
-            <label for="img">Select image:</label>
-            <input type="file" id="img" name="img" accept="image/*">
-        </form>
-        <textarea placeholder="Isi Artikel"></textarea><br><br>
-        <input type="submit">
-    </div>
-    </div>
+                <h1>Start an article</h1>
+                <p>Mulailah sebuah artikel yang bermanfaat sehingga orang lain yang membutuhkan informasi tertentu dapat
+                    membacanya </p><br>
+                    <select id="filter" class="filter">
+                      <option value="Peternakan" disabled selected>Filter Konten</option>
+                      <option value="Pertanian">Peternakan</option>
+                      <option value="Pertanian">Pertanian</option>
+                    </select><br>
+                <input placeholder="Judul Artikel">
+                <form action="/action_page.php"><br>
+                    <label for="img">Select image:</label>
+                    <input type="file" id="inputfile" name="inputfile">
+                </form>
+                <div id="image-preview" class="image-preview">
+                    <img src="" alt="Image Preview" class="image-preview__image">
+                </div><br>
+                <textarea placeholder="Isi Artikel"></textarea><br><br>
+                <button class="submit">Upload</button>
+            </div>
+        </div>
     </div>
 
     <div id="modal" class="modal">
@@ -53,8 +62,8 @@
 
     <div class="start"><br>
         <h2>Bergabung Dengan Kami dan Dapatkan Akses Penuh Gratis</h2><br>
-        <p>Kita menyediakan forum chat agar user bisa dapat saling berinteraksi dalam sebuah forum diskusi 
-            dan user yang telah bergabung dapat menciptakan sebuah inovasi baru dan dapatkan kesempatan 
+        <p>Kita menyediakan forum chat agar user bisa dapat saling berinteraksi dalam sebuah forum diskusi
+            dan user yang telah bergabung dapat menciptakan sebuah inovasi baru dan dapatkan kesempatan
             agar inovasinya dapat dipublikasi di IsoGrow</p><br>
         <button>Join Sekarang</button>
     </div>
@@ -73,36 +82,39 @@
         </div>
 
 
-    <div class="con2">
-        <h2>Artikel Populer</h2><br>
-        <ul>
-        <li><a href="artikel.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
-        <p>By wahyu. Rabu,01-Juli-2020</p><hr><br>
-        <li><a href="#">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
-        <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
-        <li><a href="#">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
-        <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
-        </ul>
-    </div>
+        <div class="con2">
+            <h2>Artikel Populer</h2><br>
+            <ul>
+                <li><a href="artikel.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
+                <p>By wahyu. Rabu,01-Juli-2020</p>
+                <hr><br>
+                <li><a href="#">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
+                <li><a href="#">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
+            </ul>
+        </div>
 
-    <div class="con3">
-        <h2>Headquarter</h2><br>
-        <img src="https://www.hoshizora.org/images/hzheadquarters.png">
+        <div class="con3">
+            <h2>Headquarter</h2><br>
+            <img src="https://www.hoshizora.org/images/hzheadquarters.png">
+        </div>
     </div>
-</div>
 
     <div class="footer">
         <div class="foot">
 
-        <img src="./FooterIcon/facebook.png">
-        <img src="./FooterIcon/instagram.png">
-        <img src="./FooterIcon/linkedin.png"><br>
-        <p>ISOGROW &copy; 2020 | All rights reserved</p>        
-        </div>   
+            <img src="./FooterIcon/facebook.png">
+            <img src="./FooterIcon/instagram.png">
+            <img src="./FooterIcon/linkedin.png"><br>
+            <p>ISOGROW &copy; 2020 | All rights reserved</p>
+        </div>
 
         <div class="foota">
-            <img src="Image/IsoGrow.png">   
-        </div>   
+            <img src="Image/IsoGrow.png">
+        </div>
     </div>
 
 

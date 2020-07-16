@@ -150,6 +150,7 @@ hr{
 
 .kontenhorizontal img:hover{
     transform: scale(1.05);
+    overflow: hidden;
 }
 
 .kontenhorizontal h3{
