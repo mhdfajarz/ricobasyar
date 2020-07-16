@@ -37,16 +37,13 @@ body{
     font-size: 60px;
     color: #fff;
     margin: auto 120px;
-    line-height: 75px;
+    line-height: 150px;
 }
 
-.para{
+.pos h3{
+    padding-top: 55px;
+    font-size: 28px;
     color: #fff;
-    font-family: 'montserrat';
-    margin: auto 120px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    font-size: 16px;
 }
 
 .arrowdown{
@@ -74,34 +71,19 @@ body{
     }
 }
 
-
-.cover{
-    color: #fff;
-    margin: auto 120px;
-    padding: 14px 40px;
-    border: 2px solid;
-    border-radius: 80px;
-    width: 280px;
-    background: rgba(0, 0, 0, .29);
-    text-align: center;
-}
-
-.cover a{
-    font-size: 18px;
-}
-
-.cover:hover{
-    color: #000;
-    background: #ACA533;
-    border: 2px solid#ACA533;
-    cursor: pointer;
-}
-
 .pos{
     text-align: center;
     padding-top: 50px;
     display: table-cell;
     vertical-align: middle;
+}
+
+.pos input{
+    width: 700px;
+    height: 60px;
+    font-size: 38px;
+    padding: 0px 20px;
+    outline: none;
 }
 
 .row::after{
@@ -119,24 +101,4 @@ body{
     z-index: 1;
     margin-top: -60px;
 }
-
-.kolom1{
-    padding-top: 90px;
-    text-align: center;
-    color: #fff;
-}
-
-.kolom1 h3{
-    font-weight: bold;
-    line-height: 10px;
-    font-size: 18px;
-}
-
-.kolom1 h2{
-    font-weight: bold;
-    font-size: 38px;
-    z-index: 2;
-}
-
-
 
