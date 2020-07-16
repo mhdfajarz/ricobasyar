@@ -56,11 +56,15 @@ body {
     width: 250px;
     height: 30px;
     outline: none;
+    padding-left: 10px;
 }
 
 .isi textarea{
     width: 95%;
     height: 250px;
+    resize: none;
+    outline: none;
+    padding: 10px;
 }
 
 .isi input[type="submit"]{

@@ -174,7 +174,6 @@ nav ul li{
 }
 
 .closeBtn:hover,:focus{
-    color: #000000;
     text-decoration: none;
     cursor: pointer;
 }

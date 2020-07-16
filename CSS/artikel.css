@@ -5,6 +5,7 @@
     text-decoration: none;
     font-family: 'Montserrat';
     list-style: none;
+    
 }
 
 *::-webkit-scrollbar{
@@ -22,11 +23,11 @@ body{
 
 .row{
     font-family: 'montserrat';
-    padding-top: 180px;
+    padding-top: 150px;
     padding-left: 120px;
     width: 100%;
-    height: 100%;
-    color: #000000;
+    min-height: 100%;
+    
 }
 
 .row::after{
@@ -35,24 +36,27 @@ body{
 }
 
 .kolom1{
-    width: 25%;
+    width: 28%;
     text-align: left;
     float: left;
 }
 
 .kolom1 h3{
     font-weight: lighter;
+    padding-top: 15px;
 }
 
 .kolom1 input{
     line-height: 20px;
     outline: none;
     width: 200px;
+    height: 30px;
+    padding-left: 10px;
 }
 
 
 .kolom2{    
-    width: 75%;
+    width: 72%;
     padding: 10px 0px;
     float: left;
 }
@@ -70,7 +74,12 @@ body{
     white-space: pre-line;
 }
 
+.kolom2 h1{
+    width: 750px;
+}
+
 .kolom2 h4{
+    width: 750px;
     line-height: 30px;
     color: #B4B4B3;
     font-weight: lighter;
@@ -79,17 +88,12 @@ body{
 .tag{
     line-height: 50px;
     padding: 5px 3%;
-    color: #000000;
+    color: #ffffff;
+    background: #ACA533;
     margin: auto 10px;
     border: 2px solid;
     text-align: center;
     font-size: 12px;
-    transition: all ease-in-out .2s;
-}
-
-.tag:hover{
-    color: #ACA533;
-    border: 2px solid #ACA533;
     transition: all ease-in-out .2s;
 }
 
@@ -107,6 +111,8 @@ hr{
     width: 750px;
     height: 300px;
     outline: none;
+    resize: none;
+    padding: 10px;
 }
 
 .komen input{
@@ -115,6 +121,8 @@ hr{
     width: 250px;
     height: 30px;
     font-size: 13px;
+    padding-left: 10px;
+   
 }
 
 .komen button{

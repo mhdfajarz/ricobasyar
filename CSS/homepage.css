@@ -114,7 +114,7 @@ nav ul li{
 
 
 .gambar-konten{
-    background: url(barn.jpg) no-repeat;
+    background: url(../Image/barn.jpg) no-repeat;
     background-size: cover;
     height: 100%;
 }
@@ -149,7 +149,6 @@ nav ul li{
 
 .cover{
     color: #fff;
-  
     margin: auto 120px;
     padding: 14px 40px;
     border: 2px solid;
@@ -164,7 +163,6 @@ nav ul li{
 }
 
 .cover:hover{
-    color: #000;
     background: #ACA533;
     border: 2px solid#ACA533;
     cursor: pointer;

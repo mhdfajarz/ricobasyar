@@ -17,7 +17,7 @@ body{
 
 
 .gambar-konten{
-    background: url(ternak.jpg) no-repeat;
+    background: url(../Image/ternak.jpg) no-repeat;
     background-size: cover;
     height: 100%;
 }

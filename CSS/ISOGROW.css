@@ -22,7 +22,7 @@ body {
     padding: 0px;
     text-decoration: none;
     background-color: #333;
-    background-image: url(ternak.jpg);
+    background-image: url(../Image/ternak.jpg);
     background-size: cover;
     z-index: -1;
 }
