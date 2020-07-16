@@ -99,43 +99,6 @@ body{
 
 hr{
     width: 750px;
-}
-
-.komen h3{
-    line-height: 60px;
-    font-weight: lighter;
-}
-
-.komen textarea{
-    font-size: 13px;
-    width: 750px;
-    height: 300px;
-    outline: none;
-    resize: none;
-    padding: 10px;
-}
-
-.komen input{
-    margin: 0 61px 0 0;
-    outline: none;
-    width: 250px;
-    height: 30px;
-    font-size: 13px;
-    padding-left: 10px;
-   
-}
-
-.komen button{
-    outline: none;
-    width: 120px;
-    height: 30px;
-    background: #ACA533;
-    border: none;
-    color: #ffffff;
-}
-
-.komen button:hover{
-    background: #88832b;
-    cursor: pointer;
+    
 }
 

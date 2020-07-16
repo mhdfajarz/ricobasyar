@@ -5,6 +5,7 @@ const nav = document.querySelector('nav');
 const logo = document.querySelector('.logo');
 const input = document.querySelector('.inputt');
 const ul = document.querySelector('nav ul');
+const tatas = document.querySelector('.tombolatas');
 
 modalbtn.addEventListener('click', openmodal);
 window.addEventListener('click', closeoutside);
@@ -25,15 +26,21 @@ window.onscroll = function(){
         nav.classList.add('active');
         logo.classList.add('active');
         ul.classList.add('active');
+        tatas.classList.add('active');
     }else{
         nav.classList.remove('active');
         logo.classList.remove('active');
         ul.classList.remove('active');
+        tatas.classList.remove('active');
     }
 }
 
 function scrollwin(){
     window.scrollTo(0,600);
+}
+
+function scrollup(){
+    window.scrollTo(0,0);
 }
 
 
