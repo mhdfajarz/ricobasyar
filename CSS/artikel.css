@@ -36,27 +36,60 @@ body{
 }
 
 .kolom1{
-    width: 28%;
+    width: 30%;
     text-align: left;
     float: left;
+    padding-top: 20px;
 }
+
 
 .kolom1 h3{
     font-weight: lighter;
     padding-top: 15px;
+    width: 300px;
+    font-weight: bold;
 }
 
 .kolom1 input{
     line-height: 20px;
     outline: none;
-    width: 200px;
+    width: 300px;
     height: 30px;
     padding-left: 10px;
 }
 
+.kolom1 h4{
+    font-weight: lighter;
+    padding-top: 15px;
+    width: 300px;
+}
+
+.artikel-terkait{
+    width: 300px;
+    padding: 80px auto;
+}
+
+.artikel-terkait img{
+    margin-top: 20px;
+    width: 300px;
+    height: 166px;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.artikel-terkait img:hover{
+    transform: scale(1.10);
+}
+
+.artikel-terkait a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
 
 .kolom2{    
-    width: 72%;
+    width: 70%;
     padding: 10px 0px;
     float: left;
 }

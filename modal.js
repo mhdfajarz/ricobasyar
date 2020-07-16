@@ -1,5 +1,6 @@
 var modal = document.getElementById('modal');
 var modalbtn = document.getElementById('btnOpen');
+var body = document.getElementsByTagName('body')
 
 const nav = document.querySelector('nav');
 const logo = document.querySelector('.logo');
