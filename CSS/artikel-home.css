@@ -34,10 +34,9 @@ body {
     text-transform: uppercase;
     font-weight: 700;
     font-family: 'montserrat';
-    font-size: 60px;
+    font-size: 45px;
     color: #fff;
-    margin: auto 120px;
-    line-height: 150px;
+    margin: 30px 120px;
 }
 
 .pos h3 {
@@ -46,6 +45,7 @@ body {
     color: #fff;
     overflow: hidden;
 }
+
 
 .arrowdown {
     padding-top: 80px;
@@ -86,12 +86,21 @@ body {
     vertical-align: middle;
 }
 
-.pos input {
-    width: 700px;
-    height: 60px;
-    font-size: 38px;
-    padding: 0px 20px;
-    outline: none;
+.startart{
+    color: #fff;
+    padding: 14px 40px;
+    border: 2px solid;
+    border-radius: 80px;
+    width: 280px;
+    background: rgba(0, 0, 0, .29);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.startart:hover{
+    background: #ACA533;
+    border: 2px solid#ACA533;
+    cursor: pointer;
 }
 
 .artikel-list::after {
@@ -107,9 +116,26 @@ body {
 }
 
 .artikel {
-    padding-top: 70px;
+    padding-top: 45px;
     padding-left: 125px;
     width: 85%;
+}
+
+
+.search{
+    width: 700px;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: all .5s;
+}
+
+.search:focus{
+    transform: scaleX(1.05);
+    transition: all .5s;
+    margin-left: 20px;
+    width: 763px;
 }
 
 hr{
