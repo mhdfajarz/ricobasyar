@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    font-family: 'montserrat';
+    background: #fff;
+}
+
+
+.gambar-konten {
+    background: url(../Image/pohonmasihkecil.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.overlay {
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    box-shadow: inset 100px 100px 100px 500px rgba(0, 0, 0, .7);
+}
+
+.heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'montserrat';
+    font-size: 45px;
+    color: #fff;
+    margin: 30px 120px;
+}
+
+.pos h3 {
+    padding-top: 55px;
+    font-size: 28px;
+    color: #fff;
+    overflow: hidden;
+}
+
+
+.arrowdown {
+    padding-top: 80px;
+    width: 50px;
+}
+
+.arrowdown:hover {
+    cursor: pointer;
+    animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+
+    20%,
+    50%,
+    80%,
+    to {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    70% {
+        transform: translateY(-15px);
+    }
+
+    90% {
+        transform: translateY(-4px);
+    }
+}
+
+.pos {
+    text-align: center;
+    padding-top: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.startart{
+    color: #fff;
+    padding: 14px 40px;
+    border: 2px solid;
+    border-radius: 80px;
+    width: 280px;
+    background: rgba(0, 0, 0, .29);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.startart:hover{
+    background: #ACA533;
+    border: 2px solid#ACA533;
+    cursor: pointer;
+}
+
+.artikel-list::after {
+    content: "";
+    display: table;
+}
+
+.artikel-list {
+    background: #fff;
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 50px;
+}
+
+.artikel {
+    padding-top: 45px;
+    padding-left: 125px;
+    width: 85%;
+}
+
+
+.search{
+    width: 700px;
+    height: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: all .5s;
+}
+
+.search:focus{
+    transform: scaleX(1.05);
+    transition: all .5s;
+    margin-left: 20px;
+    width: 763px;
+    border: 2px solid #ACA533;
+}
+
+hr{
+    width: 800px;
+}
+
+.pertama {
+    width: 800px;
+}
+
+.pertama h3{
+    font-size: 22px;
+}
+
+.pertama p{
+    font-size: 16px;
+}
+
+.first {
+    margin-bottom: 10px;
+    width: 800px;
+    height: 336px;
+}
+
+.kontenhorizontal {
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+.kontenhorizontal img{
+    width: 280px;
+    height: 166px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.kontenhorizontal img:hover{
+    transform: scale(1.05);
+    overflow: hidden;
+}
+
+.kontenhorizontal h3{
+    width: 500px;
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.artikel a{
+    color: #000000;
+    text-decoration: none;
+    width: auto;
+}
+
+.kontenhorizontal p{
+    font-size: 16px;
+}
+
+.cuttext {
+    width: 800px;
+    margin: 0 0 2em 0;
+    overflow: hidden;
+}
+
+.cuttext2 {
+    width: 500px;
+    margin: 0 0 2em 0;
+    overflow: hidden;
+}
+
+.titik3 {
+    --lh: 1.4rem;
+    line-height: var(--lh);
+    --max-lines: 3;
+    position: relative;
+    max-height: calc(var(--lh) * var(--max-lines));
+    overflow: hidden;
+}
