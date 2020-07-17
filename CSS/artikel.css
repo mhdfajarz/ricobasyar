@@ -23,7 +23,7 @@ body{
 .row{
     font-family: 'montserrat';
     padding-top: 120px;
-    padding-left: 22.55%;
+    padding-left: 21%;
     width: 100%;
     min-height: 100%;
     
@@ -84,7 +84,6 @@ body{
     width: 280px;
     height: 166px;
     border-radius: 5px;
-
 }
 
 .jadigede{
@@ -93,10 +92,6 @@ body{
 }
 .jadigede:hover{
     transform: scale(1.1);
-}
-
-.artikel-terkait img:hover{
-
 }
 
 .artikel-terkait a {
@@ -121,13 +116,13 @@ body{
 
 .kolom2 img{
     padding-top: 20px;
-    width: 750px;
+    width: 820px;
     height: 750px;
 }
 
 .kolom2 p{
     padding-top: 10px;
-    width: 750px;
+    width: 820px;
     white-space: pre-line;
 }
 
@@ -154,8 +149,8 @@ body{
     transition: all ease-in-out .2s;
 }
 
-hr{
-    width: 750px;
+.kolom2 hr{
+    width: 820px;
     
 }
 
