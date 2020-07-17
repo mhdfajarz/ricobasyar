@@ -12,34 +12,30 @@
 
 body{
     font-family: 'montserrat';
-    background: #ffffff;
+    background: url(../Image/wallpaper.jpg);
 }
-
-
-.head-forum{
-    width: 100%;
-}
-
-/*.nav2{
-    background: url(../Image/forest.jpg) no-repeat;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 58vh;
-    position: relative;
-}*/
 
 .nav3{
-    width: 100%;
+    display: table;
+    align-content: center;
+    align-items: center;
+    width: 90%;
     height: 21%;
     background: #aca533;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.warna{
+    background: rgba(181, 171, 22, 1);
+    box-shadow:0 0 25px rgba(0, 0, 0, .5); 
 }
 
 .nav3 ul{
-    float: left;
     padding-left: 33.333%;
     padding-top: 105px;
-    display: flex;
+    display: inline-block;
+    list-style-type: none;
 }
 
 .nav3 ul li{
@@ -61,14 +57,16 @@ body{
 }
 
 .bodi-forum{
-    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
     min-height: 100%;
-    background: url(../Image/wallpaper.jpg);
+    background: #ffffff;
 }
 
 .konten-kiri{
     width: 70%;
-    padding: 45px 120px;
+    padding: 45px 75px;
     float: left;
 }
 
@@ -77,11 +75,19 @@ body{
     display: table;
     width: 700px;
     height: 150px;
-    background: #ffffff;
+    background: #fafafa;
     margin:5px auto;
+    border: 1px solid #aca533;
+    border-radius: 8px;
 }
 
-.card img{
+.card hr{
+    width: 65%;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.foto-pp{
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -103,6 +109,10 @@ body{
 }
 
 .card a{
+    color: #000000;
+}
+
+.card ul li a{
     color: #ffffff;
     text-decoration: none;
     cursor: pointer;
@@ -141,16 +151,27 @@ body{
 }
 
 .popular-tag{
+    padding-top: 10px;
     display: table;
     width: 300px;
     min-height: 100px;
-    background: #ffffff;
+    background: #fafafa;
+    border: 1px solid #aca533;
+    border-radius: 8px;
+}
+
+.popular-tag hr{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 8px;
 }
 
 .popular-tag h5{
     text-align: center;
     font-size: 20px;
     color: #000000;
+    margin-bottom: 5px;
 }
 
 .popular-tag a{
@@ -159,6 +180,8 @@ body{
 
 .popular-tag ul{
     float: left;
+    padding-left: 10px;
+    padding-bottom: 8px;
 }
 
 .popular-tag ul li{
@@ -184,4 +207,147 @@ body{
     font-weight: bold;
     color: #ffffff;
     background: #cccccc;
+}
+
+.cardo{
+    float: left;
+    display: table;
+    width: 700px;
+    height: 150px;
+    background: #fafafa;
+    margin:5px auto;
+    border: 1px solid #aca533;
+    border-radius: 8px;
+}
+
+.cardo hr{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 3px;
+}
+
+.bates{
+    width: 80%;
+}
+
+.foto-pp{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.cardo h5{
+    padding-top: 22px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.cardo a{
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cardo ul{
+    float: left;
+    display: flex;
+    width: 480px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 13%;
+}
+
+.cardo ul li{
+    display: table;
+    margin-left: 20px;
+    text-align: center; 
+    border: none;
+}
+
+.buttonisi{
+    font-size: 15px;
+    position: relative;
+}
+
+.isi{
+    width: 80%;
+    padding: 15px 10px;
+    text-align: justify;
+}
+
+.isi-gambar{
+    width: 80%;
+    padding: 15px 10px;
+    margin-left: 85px;
+}
+
+.waktu{
+    padding: 0 15px;
+    color: silver;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.isi-rep{
+    padding: 20px;
+    margin-left: 100px; 
+    margin-bottom: 30px;
+    border: 1px solid;
+    width: 560px;
+}
+
+.isi-rep h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.isi-rep p {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.isi-rep input {
+    width: 250px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.isi-rep textarea {
+    width: 100%;
+    height: 250px;
+    resize: none;
+    outline: none;
+    padding: 10px;
+}
+
+.isi-rep button{
+    background: rgb(181, 171, 22);
+    color: #ffffff;
+    outline: none;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+
+.isi-rep button:hover{
+    background: rgb(128, 120, 16);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.filter{
+    width: 200px;
+    padding: 3px;
+    margin-bottom: 8px;
+}
+
+.image-preview__image{
+    display: none;
+    width: 550px;
+    min-height: 100px;
 }

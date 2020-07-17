@@ -11,114 +11,128 @@
 <body>
     <nav class="warna">
         <a href="homepage.html">
-        <img src="Image/IsoGrowLogoTransparent.png" class="logo">
+            <img src="Image/IsoGrowLogoTransparent.png" class="logo">
         </a>
         <ul>
-            <li><a  class="loginbutton" href="homepage.html" >Home</a></li>
-            <li><a  class="loginbutton" href="about-us.html">About Us</a></li>
+            <li><a class="loginbutton" href="homepage.html">Home</a></li>
+            <li><a class="loginbutton" href="about-us.html">About Us</a></li>
             <li><a class="loginbutton" href="artikel-peternakan.html">Encyclopedia Peternakan</a></li>
             <li><a class="loginbutton" href="artikel-pertanian.html">Encyclopedia Pertanian</a></li>
-            <li><a  class="loginbutton" href="#">Forum</a></li>
+            <li><a class="loginbutton" href="forum.html">Forum</a></li>
             <li><a id="btnOpen" class="loginbutton" href="#">Login</a></li>
         </ul>
     </nav>
 
     <img class="tombolatas" src="Image/tombolatas2.png" onclick="scrollup()">
 
-    <div class="head-forum">
-        <div class="nav2">
-            
-        </div>
-        <div class="nav3">
-            <ul>
-                <li><a class="buttonnav loginbutton"  href="" >Latest</a></li>
-                <li><a class="buttonnav loginbutton"  href="">Trending</a></li>
-                <li><a class="buttonnav loginbutton"  href="">Popular This Week</a></li>
-            </ul>
+    <div id="modal" class="modal">
+        <div id="modal-content" class="modal-content">
+            <h2>Sign In</h2>
+            <input type="text" placeholder="Username or Email"><br>
+            <input type="password" placeholder="Password"><br>
+            <a href="#">Forgot Password?</a><br>
+            <p>Don't have an account? <a href="#">Create Account</a></p>
+            <button>LOGIN</button>
         </div>
     </div>
 
+        <div class="nav3">
+            <ul>
+                <li><a class="buttonnav loginbutton" href="#">Latest</a></li>
+                <li><a class="buttonnav loginbutton" href="#">Trending</a></li>
+                <li><a class="buttonnav loginbutton" href="#">Popular This Week</a></li>
+            </ul>
+        </div>
+
     <div class="bodi-forum">
         <div class="konten-kiri">
-        <div class="card">
-            <img src="Image/Koala.jpg">
-            <h5>Ayam saya ilang, kira kira dimana?</h5>
-            <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
-            <ul>
-                <li><a class="buttonnav" >Penyakit</a></li>
-                <li><a class="buttonnav" >Ayam</a></li>
-                <li><a class="buttonnav" >peternakan</a></li>
-            </ul>
-            <p class="abu-abu posisi">15 Menit yang lalu</p>
+            <div class="card">
+                <a href="forum-isi.html"><img class="foto-pp" src="Image/Koala.jpg">
+                <h5>Ayam saya ilang, kira kira dimana?</h5></a>
+                <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
+                <hr>
+                <ul>
+                    <li><a class="buttonnav" href="#">Penyakit</a></li>
+                    <li><a class="buttonnav" href="#">Ayam</a></li>
+                    <li><a class="buttonnav" href="#">peternakan</a></li>
+                </ul>
+                <p class="abu-abu posisi">15 Menit yang lalu</p>
+            </div>
+            <div class="card">
+                <a href="forum-isi.html"><img class="foto-pp" src="Image/wahyu.JPG">
+                <h5>Sapi Wagyu berapaan gan?</h5></a>
+                <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
+                <hr>
+                <ul>
+                    <li><a class="buttonnav" href="#">Harga</a></li>
+                    <li><a class="buttonnav" href="#">Sapi</a></li>
+                    <li><a class="buttonnav" href="#">Daging</a></li>
+                    <li><a class="buttonnav" href="#">peternakan</a></li>
+                </ul>
+                <p class="abu-abu posisi">15 Menit yang lalu</p>
+            </div>
+            <div class="card">
+                <a href="forum-isi.html"><img class="foto-pp" src="Image/barn.jpg">
+                <h5>Ayam dulu apa telur dulu kira kira?</h5></a>
+                <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
+                <hr>
+                <ul>
+                    <li><a class="buttonnav" href="#">Ayam</a></li>
+                    <li><a class="buttonnav" href="#">Telur</a></li>
+                    <li><a class="buttonnav" href="#">peternakan</a></li>
+                </ul>
+                <p class="abu-abu posisi">15 Menit yang lalu</p>
+            </div>
+            <div class="card">
+                <a href="forum-isi.html"><img class="foto-pp" src="Image/ternak.jpg">
+                <h5>Tips merawat sapi dong!?</h5></a>
+                <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
+                <hr>
+                <ul>
+                    <li><a class="buttonnav" href="#">sapi</a></li>
+                    <li><a class="buttonnav" href="#">tips</a></li>
+                    <li><a class="buttonnav" href="#">peternakan</a></li>
+                </ul>
+                <p class="abu-abu posisi">15 Menit yang lalu</p>
+            </div>
+            <div class="card">
+                <a href="forum-isi.html"><img class="foto-pp" src="Image/forest.jpg">
+                <h5>Gimana caranya nyuburin tanah?</h5></a>
+                <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
+                <hr>
+                <ul>
+                    <li><a class="buttonnav" href="#">lahan</a></li>
+                    <li><a class="buttonnav" href="#">pertanian</a></li>
+                </ul>
+                <p class="abu-abu posisi" >15 Menit yang lalu</p>
+            </div>
         </div>
-        <div class="card">
-            <img src="Image/wahyu.JPG">
-            <h5>Sapi Wagyu berapaan gan?</h5>
-            <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
-            <ul>
-                <li><a class="buttonnav" >Harga</a></li>
-                <li><a class="buttonnav" >Sapi</a></li>
-                <li><a class="buttonnav" >Daging</a></li>
-                <li><a class="buttonnav" >peternakan</a></li>
-            </ul>
-            <p class="abu-abu posisi">15 Menit yang lalu</p>
+
+        <div class="konten-kanan">
+            <div class="popular-tag">
+                <h5>Popular Tags</h5>
+                <hr>
+                <ul>
+                    <li><a class="buttonnav" href="#">Sapi</a></li>
+                    <li><a class="buttonnav" href="#">Ayam</a></li>
+                    <li><a class="buttonnav" href="#">Harga</a></li>
+                    <li><a class="buttonnav" href="#">Penyakit</a></li>
+                    <li><a class="buttonnav" href="#">Peternakan</a></li>
+                    <li><a class="buttonnav" href="#">Telur</a></li>
+                    <li><a class="buttonnav" href="#">Daging</a></li>
+                </ul>
+            </div>
+            
+            <div class="googleads">
+                <span class="Img-ads">Google Ads</span>
+            </div>
         </div>
-        <div class="card">
-            <img src="Image/barn.jpg">
-            <h5>Ayam dulu apa telur dulu kira kira?</h5>
-            <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
-            <ul>
-                <li><a class="buttonnav" >Ayam</a></li>
-                <li><a class="buttonnav" >Telur</a></li>
-                <li><a class="buttonnav" >peternakan</a></li>
-            </ul>
-            <p class="abu-abu posisi">15 Menit yang lalu</p>
-        </div>
-        <div class="card">
-            <img src="Image/ternak.jpg">
-            <h5>Tips merawat sapi dong!?</h5>
-            <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
-            <ul>
-                <li><a class="buttonnav">sapi</a></li>
-                <li><a class="buttonnav">tips</a></li>
-                <li><a class="buttonnav">peternakan</a></li>
-            </ul>
-            <p class="abu-abu posisi">15 Menit yang lalu</p>
-        </div>
-        <div class="card">
-            <img src="Image/forest.jpg">
-            <h5>Gimana caranya nyuburin tanah?</h5>
-            <p class="abu-abu">0 Answers | 0 Votes | 0 View</p>
-            <ul>
-                <li><a class="buttonnav">lahan</a></li>
-                <li><a class="buttonnav">pertanian</a></li>
-            </ul>
-            <p class="abu-abu posisi">15 Menit yang lalu</p>
-        </div>     
-    </div>
-    <div class="konten-kanan">
-        <div class="popular-tag">
-            <h5>Popular Tags</h5>
-            <ul>
-                <li><a class="buttonnav">Sapi</a></li>
-                <li><a class="buttonnav">Ayam</a></li>
-                <li><a class="buttonnav">Harga</a></li>
-                <li><a class="buttonnav">Penyakit</a></li>
-                <li><a class="buttonnav">Peternakan</a></li>
-                <li><a class="buttonnav">Telur</a></li>
-                <li><a class="buttonnav">Daging</a></li>
-            </ul>
-        </div>
-        <div class="googleads">
-            <span class="Img-ads">Goodle Ads</span>
-        </div>
-    </div>
     </div>
 
     <div class="start"><br>
         <h2>Bergabung Dengan Kami dan Dapatkan Akses Penuh Gratis</h2><br>
-        <p>Kita menyediakan forum chat agar user bisa dapat saling berinteraksi dalam sebuah forum diskusi 
-            dan user yang telah bergabung dapat menciptakan sebuah inovasi baru dan dapatkan kesempatan 
+        <p>Kita menyediakan forum chat agar user bisa dapat saling berinteraksi dalam sebuah forum diskusi
+            dan user yang telah bergabung dapat menciptakan sebuah inovasi baru dan dapatkan kesempatan
             agar inovasinya dapat dipublikasi di IsoGrow</p><br>
         <button>Join Sekarang</button>
     </div>
@@ -142,35 +156,36 @@
         <div class="con2">
             <h2>Artikel Populer</h2><br>
             <ul>
-            <li><a href="artikel.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
-            <p>By wahyu. Rabu,01-Juli-2020</p><hr><br>
-            <li><a href="#">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
-            <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
-            <li><a href="#">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
-            <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
+                <li><a href="artikel.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
+                <p>By wahyu. Rabu,01-Juli-2020</p>
+                <hr><br>
+                <li><a href="#">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
+                <li><a href="#">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
             </ul>
         </div>
 
-    <div class="con3">
-        <h2>Headquarter</h2><br>
-        <img src="https://www.hoshizora.org/images/hzheadquarters.png">
+        <div class="con3">
+            <h2>Headquarter</h2><br>
+            <img src="https://www.hoshizora.org/images/hzheadquarters.png">
+        </div>
     </div>
-</div>
 
     <div class="footer">
         <div class="foot">
-        <img src="./FooterIcon/facebook.png">
-        <img src="./FooterIcon/instagram.png">
-        <img src="./FooterIcon/linkedin.png"><br>
-        <p>ISOGROW &copy; 2020 | All rights reserved</p>      
-        </div>   
+            <img src="./FooterIcon/facebook.png">
+            <img src="./FooterIcon/instagram.png">
+            <img src="./FooterIcon/linkedin.png"><br>
+            <p>ISOGROW &copy; 2020 | All rights reserved</p>
+        </div>
         <div class="foota">
-            <img src="Image/IsoGrow.png">   
-        </div>   
+            <img src="Image/IsoGrow.png">
+        </div>
     </div>
-
-
-    <script src="modal.js"></script>
+    <script src="ISOGROW.js"></script>
 </body>
 
 </html>
