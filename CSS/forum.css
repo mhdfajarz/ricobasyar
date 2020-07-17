@@ -59,6 +59,11 @@ body{
     color: #000000;
 }
 
+.bodi-forum::after{
+    content: "";
+    display: table;
+}
+
 .bodi-forum{
     width: 100%;
     min-height: 100%;
@@ -68,9 +73,11 @@ body{
 .konten-kiri{
     width: 70%;
     padding: 45px 120px;
+    float: left;
 }
 
 .card{
+    float: left;
     display: table;
     width: 700px;
     height: 150px;
@@ -88,7 +95,7 @@ body{
 }
 
 .card h5{
-    padding-top: 20px;
+    padding-top: 22px;
     padding-left: 15px;
     font-size: 18px;
 }
@@ -109,7 +116,8 @@ body{
 .card ul{
     float: left;
     display: flex;
-    padding-top: 50px;
+    padding-top: 32px;
+    width: 480px;
 }
 
 .card ul li{
@@ -128,4 +136,44 @@ body{
     text-align: right;
     margin-top: 60px;
     font-size: 15px;
+}
+
+.konten-kanan{
+    width: 30%;
+    padding: 50px 0px;
+    float: left;
+}
+
+.popular-tag{
+    float: left;
+    display: table;
+    max-width: 280px;
+    height: 150px;
+    background: #ffffff;
+}
+
+.popular-tag h5{
+    text-align: center;
+    font-size: 20px;
+    color: #000000;
+}
+
+.popular-tag a{
+    color: #000000;
+}
+
+.popular-tag ul{
+    float: left;
+    display: flex;
+    padding-top: 32px;
+}
+
+.popular-tag ul li{
+    display: table;
+    margin: 10px;
+    text-align: center; 
+    border: 1px solid #aca533;
+    background: #aca533;
+    color: #ffffff;
+    text-transform: uppercase;
 }
