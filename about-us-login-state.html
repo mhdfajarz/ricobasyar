@@ -3,26 +3,25 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/homepage.css">
+    <link rel="stylesheet" href="CSS/about-us.css">
     <link rel="stylesheet" href="CSS/nav.css">
     <link rel="stylesheet" href="CSS/footer.css">
 </head>
 
 <body>
-   
     <nav class="warna">
-        <a href="homepage.html">
+        <a href="homepage-login-state.html">
             <img src="Image/IsoGrowLogoTransparent.png" class="logo">
         </a>
 
         <ul>
-            <li><a class="loginbutton" href="homepage.html">Home</a></li>
-            <li><a class="loginbutton" href="about-us.html">About Us</a></li>
-            <li><a class="loginbutton" href="artikel-peternakan.html">Encyclopedia Peternakan</a></li>
-            <li><a class="loginbutton" href="artikel-pertanian.html">Encyclopedia Pertanian</a></li>
-            <li><a class="loginbutton" href="forum.html">Forum</a></li>
-            <li><a id="btnOpen" class="loginbutton" href="#">Login</a></li>
-            <li><img src="Image/Koala.jpg" class="foto-pp hidden" id="foto-menu"></li>
+            <li><a class="loginbutton" href="homepage-login-state.html">Home</a></li>
+            <li><a class="loginbutton" href="about-us-login-state.html">About Us</a></li>
+            <li><a class="loginbutton" href="artikel-peternakan-login-state.html">Encyclopedia Peternakan</a></li>
+            <li><a class="loginbutton" href="artikel-pertanian-login-state.html">Encyclopedia Pertanian</a></li>
+            <li><a class="loginbutton" href="forum-login-state.html">Forum</a></li>
+            <li><a id="btnOpen" class="loginbutton hidden" href="#">Login</a></li>
+            <li><img src="Image/Koala.jpg" class="foto-pp" id="foto-menu"></li>
         </ul>
     </nav>
 
@@ -30,7 +29,7 @@
         <div class="menu-content">
             <div class="menu-list">
                 <h4><a href="#">Profile</a></h4>
-                <h4 class="logout"><a href="homepage.html" >Logout</a></h4>
+                <h4 class="logout"><a href="about-us.html">Logout</a></h4>
             </div>
         </div>
     </div>
@@ -40,12 +39,13 @@
     <div class="gambar-konten">
         <div class="overlay">
             <div class="pos">
-                <h1 class="heading">GROW<br>
-                    WITH US</h1>
-                <p class="para">Make a good farm and garden with our ecyclopedia,<br>
-                    The encyclopedia itself from farmer & gardener <br> for
-                    farmer & gardener</p>
-                <h1 class="cover"><a href="#">GET STARTED</a></h1>
+                <h1 class="heading">ABOUT US</h1>
+                <p class="para">IsoGrow adalah sebuah platform penyedia
+                    informasi tentang pertanian dan perkebunan
+                    secara gratis untuk semua pengguna IsoGrow
+                    Telah menyediakan lebih dari +5700 artikel yang
+                    tercipta oleh para pengguna untuk pengguna.</p>
+                <img src="Image/arrowdown.png" onclick="scrollwin()" class="arrowdown">
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@
             <p>Masuk dan jelajahi informasi agrikultur terkini dan terlengkap sesuai kebutuhan mu di IsoGrow ini</p>
             <input type="text" placeholder="Username or Email"><br>
             <input type="password" placeholder="Password"><br>
-            <a href="homepage-login-state.html"><button class="selanjutnya">Selanjutnya</button></a>
+            <button class="selanjutnya">Selanjutnya</button>
             <div class="separator">Masuk atau daftar dengan</div>
             <div class="method">
                 <button class="buttonp fb">Facebook</button>
@@ -68,30 +68,12 @@
 
     <div class="row">
         <div class="kolom1">
-            <h3>The Best Quality</h3>
-            <h2>Encyclopedia</h2><br>
-            <p>Kami Berinisiatif untuk menciptakan <br>
-                suatu platform berisi informasi yang <br>
-                dibutuhkan oleh para petani dan <br>
-                pekebun di seluruh Indonesia</p><br>
-            <h2>+5700</h2>
-            <p>Artikel encyclopedia tentang<br>
-                Pertanian dan perkebunan</p>
-
-        </div>
-
-        <div class="kolom2">
-            <div class="card">  
-                    <img src="Image/chicken.png"><br>
-                    <a href="#"><button>Peternakan</button></a>
-            </div>
-        </div>
-
-        <div class="kolom3">
-            <div class="card">  
-                <img src="Image/daun.png"><br>
-                <a href="artikel-home.html"><button>Pertanian</button></a>
-            </div>
+            <h2>Filosofi Logo</h2><br>
+            <center><img class="logoisogrow" src="Image/IsoGrowLogoTransparent.png"></center>
+            <p>Iso disini kami mengambil dari bahasa jawa yang berarti bisa, <br>
+                dan grow sendiri dari bahasa inggris yang berarti tumbuh jika digabungkan maka berarti "bisa bertumbuh." <br>
+                Lalu ada gambar tanaman pada huruf O disitu bermaksud bahwa sistem tersebut digunakan untuk petani<br>
+                 dan begitu pula gambar ayam pada huruf O yang mengindikasikan sistem ini untuk peternak.</p><br>
         </div>
     </div>
 
@@ -121,12 +103,15 @@
         <div class="con2">
             <h2>Artikel Populer</h2><br>
             <ul>
-            <li><a href="artikel.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
-            <p>By wahyu. Rabu,01-Juli-2020</p><hr><br>
-            <li><a href="artikel.html">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
-            <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
-            <li><a href="artikel.html">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
-            <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
+                <li><a href="artikel-login-state.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
+                <p>By wahyu. Rabu,01-Juli-2020</p>
+                <hr><br>
+                <li><a href="artikel-login-state.html">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
+                <li><a href="artikel-login-state.html">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
             </ul>
         </div>
 
@@ -138,12 +123,12 @@
 
     <div class="footer">
         <div class="foot">
+
         <img src="./FooterIcon/facebook.png">
         <img src="./FooterIcon/instagram.png">
         <img src="./FooterIcon/linkedin.png"><br>
-        
-        <p>ISOGROW &copy; 2020 | All rights reserved</p>   
-        </div>  
+        <p>ISOGROW &copy; 2020 | All rights reserved</p>      
+        </div>   
 
         <div class="foota">
             <img src="Image/IsoGrow.png">   

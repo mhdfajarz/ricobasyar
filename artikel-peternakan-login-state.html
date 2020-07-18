@@ -10,27 +10,37 @@
 
 <body>
     <nav class="warna">
-        <a href="homepage.html">
+        <a href="homepage-login-state.html">
             <img src="Image/IsoGrowLogoTransparent.png" class="logo">
         </a>
+
         <ul>
-            <li><a class="loginbutton" href="homepage.html">Home</a></li>
-            <li><a class="loginbutton" href="about-us.html">About Us</a></li>
-            <li><a class="loginbutton" href="artikel-peternakan.html">Encyclopedia Peternakan</a></li>
-            <li><a class="loginbutton" href="artikel-pertanian.html">Encyclopedia Pertanian</a></li>
-            <li><a class="loginbutton" href="forum.html">Forum</a></li>
-            <li><a id="btnOpen" class="loginbutton" href="#">Login</a></li>
-            <li><img src="Image/Koala.jpg" class="foto-pp hidden" id="foto-menu"></li>
+            <li><a class="loginbutton" href="homepage-login-state.html">Home</a></li>
+            <li><a class="loginbutton" href="about-us-login-state.html">About Us</a></li>
+            <li><a class="loginbutton" href="artikel-peternakan-login-state.html">Encyclopedia Peternakan</a></li>
+            <li><a class="loginbutton" href="artikel-pertanian-login-state.html">Encyclopedia Pertanian</a></li>
+            <li><a class="loginbutton" href="forum-login-state.html">Forum</a></li>
+            <li><a id="btnOpen" class="loginbutton hidden" href="#">Login</a></li>
+            <li><img src="Image/Koala.jpg" class="foto-pp" id="foto-menu"></li>
         </ul>
     </nav>
 
+    <div class="menu" id="menu">
+        <div class="menu-content">
+            <div class="menu-list">
+                <h4><a href="#">Profile</a></h4>
+                <h4 class="logout"><a href="about-us.html">Logout</a></h4>
+            </div>
+        </div>
+    </div>
+
     <img class="tombolatas" src="Image/tombolatas2.png" onclick="scrollup()">
 
-    <div class="gambar-konten">
+    <div class="gambar-konten-peternakan">
         <div class="overlay">
             <div class="pos">
                 <h1 class="heading">Ayo tulis artikel untuk menyampaikan informasi yang berguna</h1>
-                <a href="make-artikel.html"><button class="startart">Buat Artikel</button></a>
+                <a href="make-artikel-login-state.html"><button class="startart">Buat Artikel</button></a>
                 <h3>Atau bisa juga cari artikel dibawah ini</h3>
                 <img src="Image/arrowdown.png" onclick="scrollwin()" class="arrowdown">
             </div>
@@ -44,7 +54,7 @@
             <p>Masuk dan jelajahi informasi agrikultur terkini dan terlengkap sesuai kebutuhan mu di IsoGrow ini</p>
             <input type="text" placeholder="Username or Email"><br>
             <input type="password" placeholder="Password"><br>
-            <a href="artikel-pertanian-login-state.html"><button class="selanjutnya">Selanjutnya</button></a>
+            <a href="artikel-peternakan-login-state.html"><button class="selanjutnya">Selanjutnya</button></a>
             <div class="separator">Masuk atau daftar dengan</div>
             <div class="method">
                 <button class="buttonp fb">Facebook</button>
@@ -56,12 +66,11 @@
     <div class="artikel-list">
         <div class="artikel">
             <input placeholder="Search" class="search">
-            <h2>Artikel Pertanian Terkini untuk Anda</h2><br>
+            <h2>Artikel Peternakan Terkini untuk Anda</h2><br>
             <hr><br>
             <div class="pertama">
-                <a href="artikel.html"><img class="first" src="Image/pepaya.jpeg">
-                    <h3>Pepaya Jepang Superfood Penambah Imunitas</h3>
-                </a>
+                <a href="artikel-login-state.html"><img class="first" src="Image/pepaya.jpeg">
+                <h3>Pepaya Jepang Superfood Penambah Imunitas</h3></a>
                 <p class="cuttext titik3"><b>"Pepaya jepang... Emang ada?"</b>
                     cetus seorang teman kepadaku, ketika melihat sebuah postinganku saat memasak!
 
@@ -70,9 +79,8 @@
                     berbeda, bentuk daunnya mirip dengan pepaya hanya saja ukurannya relatif lebih kecil.</p>
             </div>
             <div class="kontenhorizontal">
-                <a href="artikel.html"><img src="Image/mangga.jpg">
-                    <h3>Cara Mudah Menanam Mangga Chokanan di Pekarangan dan Pot</h3>
-                </a>
+                <a href="artikel-login-state.html"><img src="Image/mangga.jpg">
+                <h3>Cara Mudah Menanam Mangga Chokanan di Pekarangan dan Pot</h3></a>
                 <p class="cuttext2 titik3">Mangga chokanan berasal dari Thailand dan bisa tumbuh baik di Indonesia. Rasa
                     buah mangga
                     chokanan manis seperti madu, tak heran banyak masyarakat Indonesia yang menyukai mangga ini.
@@ -81,17 +89,15 @@
                     sama seperti mangga pada umumnya.</p>
             </div>
             <div class="kontenhorizontal">
-                <a href="artikel.html"><img src="Image/manggis.jpg">
-                    <h3>Cara Mudah Menanam Bibit Manggis di Dalam Pot</h3>
-                </a>
+                <a href="artikel-login-state.html"><img src="Image/manggis.jpg">
+                <h3>Cara Mudah Menanam Bibit Manggis di Dalam Pot</h3></a> 
                 <p class="cuttext2 titik3">Buah manggis memiliki banyak manfaat yang sangat baik untuk kesehatan. Selain
                     itu, rasa buah manggis sangat menyegarkan, perpaduan antara asam dan manis dapat membuat orang-orang
                     ketagihan untuk memakannya lagi dan lagi.</p>
             </div>
             <div class="kontenhorizontal">
-                <a href="artikel.html"><img src="Image/hidro.jpg">
-                    <h3>Hidroponik Portabel Membuat Kegiatan Menanam Jadi Lebih Mudah</h3>
-                </a>
+                <a href="artikel-login-state.html"><img src="Image/hidro.jpg">
+                <h3>Hidroponik Portabel Membuat Kegiatan Menanam Jadi Lebih Mudah</h3></a> 
                 <p class="cuttext2 titik3">Kegiatan menanam pada dasarnya merupakan kegiatan positif yang mudah untuk
                     dilakukan jika Anda sudah mengetahui caranya. Caranya pun cukup mudah untuk dipelajari asalkan ada
                     kemauan.</p>
@@ -133,12 +139,15 @@
         <div class="con2">
             <h2>Artikel Populer</h2><br>
             <ul>
-            <li><a href="artikel.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
-            <p>By wahyu. Rabu,01-Juli-2020</p><hr><br>
-            <li><a href="artikel.html">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
-            <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
-            <li><a href="artikel.html">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
-            <p>By wahyu, Rabu,29-Juli-2090</p><hr><br>
+                <li><a href="artikel-login-state.html">Pepaya Jepang Superfood Penambah Imunitas</a></li>
+                <p>By wahyu. Rabu,01-Juli-2020</p>
+                <hr><br>
+                <li><a href="artikel-login-state.html">Ikan selalu bau amis? coba lakukan 5 hal berikut</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
+                <li><a href="artikel-login-state.html">Yuks imak cara membedakan yang mana sapi dan kerbau!</a></li>
+                <p>By wahyu, Rabu,29-Juli-2090</p>
+                <hr><br>
             </ul>
         </div>
 
@@ -161,8 +170,6 @@
             <img src="Image/IsoGrow.png">
         </div>
     </div>
-
-
     <script src="ISOGROW.js"></script>
 </body>
 

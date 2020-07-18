@@ -19,6 +19,7 @@ nav.active{
     width: 100%;
     box-shadow: 0 0 100px rgba(0, 0, 0, .8);
     transition: .5s all;
+    
 }
 
 .logo{
@@ -172,6 +173,10 @@ nav ul li{
     font-size: 20px;
 }
 
+.modal-content a{
+    color: white;
+}
+
 .selanjutnya:hover{
     border: none;
     color: #fff;
@@ -263,3 +268,75 @@ nav ul li{
         transform: translateY(-4px);
     }
 }
+
+.foto-pp{
+    margin-top: 13px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.foto-pp:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+.menu{
+    font-family: 'Montserrat';
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.menu-content{
+    display: flex;
+    position: fixed;
+    background: transparent;
+    padding: 15px;
+    height: 80px;
+    width: 100px;
+    right: 20;
+    top: 70;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .50);
+    border-radius: 5px;
+    color: #ffffff;
+    transition: all .5s;
+}
+
+.menu-content.active{
+    background: rgb(145, 136, 16);
+    right: 20;
+    top: 60;
+    transition: all .5s;
+}
+
+.menu-list{
+    display: table;
+}
+
+.menu-list h4{
+    font-size: 15px;
+    width: 90px;
+    color: #ffffff;
+}
+.menu-list h4:hover{
+    color: rgb(206, 206, 206);
+}
+
+.logout{
+    margin-top: 12px;
+}
+
+.menu-list a{
+    color: #ffffff;
+}
+
