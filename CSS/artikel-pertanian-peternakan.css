@@ -15,9 +15,14 @@ body {
     background: #fff;
 }
 
-
 .gambar-konten {
     background: url(../Image/pohonmasihkecil.jpg) no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.gambar-konten-peternakan {
+    background: url(../Image/sapi.jpg) no-repeat;
     background-size: cover;
     height: 100%;
 }
