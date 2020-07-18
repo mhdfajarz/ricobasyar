@@ -80,7 +80,3 @@ filepre.addEventListener('change', function() {
         previewimg.setAttribute("src", "");
     }
 });
-
-
-
-
