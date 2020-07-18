@@ -83,7 +83,7 @@ body{
 
 .card hr{
     width: 65%;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 3px;
 }
 
@@ -222,7 +222,7 @@ body{
 
 .cardo hr{
     width: 80%;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-top: 3px;
 }
 
@@ -277,16 +277,18 @@ body{
     width: 80%;
     padding: 15px 10px;
     text-align: justify;
+    margin-left: 65px;
 }
 
 .isi-gambar{
     width: 80%;
     padding: 15px 10px;
-    margin-left: 85px;
+    margin-left: 65px;
 }
 
 .waktu{
     padding: 0 15px;
+    margin-left: 65px;
     color: silver;
     font-size: 13px;
     margin-top: 2px;
